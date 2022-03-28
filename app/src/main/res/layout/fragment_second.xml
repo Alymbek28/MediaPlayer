@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondFragment"
+    android:background="#091227">
+
+    <ImageView
+        android:id="@+id/keyboard_backspace"
+        android:layout_marginTop="39dp"
+        android:layout_marginLeft="32dp"
+        android:src="@drawable/ic_keyboard_backspace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textSize="20sp"
+        android:layout_marginLeft="127dp"
+        android:layout_marginTop="39dp"
+        android:textColor="@color/white"
+        android:text="Playing Now"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/img_poster_2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="118dp"
+        android:src="@drawable/poster_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/txt_Believer_2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:layout_below="@id/img_poster_2"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:text="Believer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/txt_imagine2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="61dp"
+        android:layout_below="@id/img_poster_2"
+        android:textColor="#A5C0FFB2"
+        android:textSize="16dp"
+        android:text="IMAGINE DRAGON"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/ic_volume"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="497dp"
+        android:src="@drawable/ic_baseline_volume_down_24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/ic_mix"
+        android:layout_marginLeft="293dp"
+        android:layout_marginTop="498dp"
+        android:src="@drawable/mix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/ic_group"
+        android:layout_marginLeft="326dp"
+        android:layout_marginTop="498dp"
+        android:src="@drawable/group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/txt_00.50"
+        android:textColor="#A5C0FFB2"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="576dp"
+        android:textSize="12dp"
+        android:text="00:50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/txt_04.00"
+        android:layout_marginLeft="311dp"
+        android:layout_marginTop="576dp"
+        android:textSize="12dp"
+        android:textColor="#A5C0FFB2"
+        android:text="04:00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/img_pause"
+        android:layout_marginTop="713dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/pause1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/img_skip_prevoious"
+        android:layout_marginTop="713dp"
+        android:layout_marginLeft="104dp"
+        android:src="@drawable/skip_prevoious"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/img_skip_next"
+        android:layout_marginTop="713dp"
+        android:layout_marginLeft="246dp"
+        android:src="@drawable/skip_next1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>
